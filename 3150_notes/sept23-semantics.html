@@ -1,0 +1,85 @@
+<!-- Semantics: makes website more accessible, and tells chrome which parts of the website are which -->
+    <!-- Figure: dunno look it up -->
+    <!-- header, nav, main, section, aside, figure, footer  -->
+    <!-- Don't use font and small tags. Just use CSS for that -->
+
+    <!-- Page Layout -->
+        <!-- above the fold -->
+        <!-- top, centered, aligned -->
+        <!-- no clutter -->
+        <!-- responsive (grid or flexbox) -->
+    
+    <!-- Outlines -->
+        <!-- Structure, organization, labelling, indexing -->
+        <!-- use w3 validator nu -->
+        <!-- "display: none;" hide visually and from screen readers -->
+        <!-- "clip method" visible but have it qvailable for screen readers -->
+        <!-- "aria-hidden: true" visible but ignored by assistive technology--> 
+
+    <!-- Screen reader friendly css in css file -->
+
+    <!-- Color Schemes (all found on Adobe) -->
+        <!-- applying color theory to websites -->
+        <!-- Contrast checker: need a bigger ratio like 12.7 : 1 -->
+        <!-- Color blind safe/simulator -->
+    
+    <!-- Information Architecture -->
+        <!-- decide how a site should be structured -->
+        <!-- organize your site so that people can actually find what they are looking for -->
+    
+        <!-- don't game the system with google. they will drop your site down thru search results -->
+
+    <!-- html5 boilerplate: changes directory structure into more advanced -->
+    <!-- webpack: more front-end tools -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Code Example</title>
+    <link rel="stylesheet" href="sept23.css">
+</head>
+<body>
+    <div class="container">
+    <!-- main heading of page, dont use h1 more than once -->
+    <header>
+        <h1>Proper use of html5 semantic markup</h1>
+    </header>
+    <nav>
+        <h2 class="sr-only">main navigation</h2>
+        <ul>
+            <li><a href="#latin-dummy">Lorem Ipsum</a></li>
+            <li><a href="#hipster-ipsum">Hipster Ipsum</a></li>
+            <li><a href="#">Dummy Link</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="latin-dummy">
+            <h2>latin "dummy" text</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <figure>
+                <img src="http://placehold.it/300x300" alt="verbal desc of image">
+                <figcaption>image title</figcaption>
+            </figure>
+            <aside>
+                <h2>supplementary latin links</h2>
+                <ul>
+                    <li><a href="#">how to learn latin</a></li>
+                </ul>
+            </aside>
+        </section>
+        <section id="hipster-ipsum">
+            <h2>hipster ipsum</h2>
+            <p>I'm baby poke hexagon chambray enamel pin tattooed tousled, mixtape +1 twee gastropub chia bodega boys. Shabby chic put a bird on it food truck tousled blackbird spyplane authentic green juice crucifix squid. </p>
+            <p>Schlitz cliche +1, blue bottle yes plz farm-to-table enamel pin hoodie wayfarers thundercats portland. Narwhal fixie artisan hammock taiyaki, hexagon typewriter kombucha beard. Fit occupy lo-fi man bun.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>designed by me</p>
+        <address>email@colorado.edu</address>
+        <small>&copy; 2021</small>
+    </footer>
+</div>
+</body>
+</html>
