@@ -194,4 +194,12 @@ footer {
     #aside1 {
         padding: 3em;
     }
+
+    nav ul li a {
+        display: block;
+        padding: 10px 20vw;
+        margin: 5px; 
+        border: 1px white solid;
+        background: black;
+    }
 }
