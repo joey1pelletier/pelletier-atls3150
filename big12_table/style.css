@@ -10,7 +10,7 @@ h1 {
     font-weight: 700;
     font-size: 3em;
     border-bottom: 1px solid #ffffff;
-    
+    text-decoration: none;
 }
 
 h2 {
@@ -45,7 +45,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/big12-image.png);
+    background-image: linear-gradient(rgba(0, 144, 216, 0.65), rgba(0, 255, 68, 0.65));
     background-size: cover;
     width: 100vw;
     height: 20vw;

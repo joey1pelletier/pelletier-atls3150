@@ -22,6 +22,7 @@ p {
     flex-direction: column;
 }
 
+
 nav a {
     font-family: "DM Sans", sans-serif;
     color: black;
@@ -41,7 +42,7 @@ nav ul {
     font-size: 1.2em;
 }
 
-#hero {
+#hero-home {
     display: flex;
     color: white;
     justify-content: center;
@@ -54,15 +55,55 @@ nav ul {
     font-size: 1.5em;
 }
 
+#hero-what {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 216, 0, 1), rgba(236, 215, 21, 1));
+    background-size: cover;
+    width: 100vw;
+    padding: 3em;
+    font-size: 1.5em;
+}
+
+#hero-why {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(166, 216, 0), rgb(236, 21, 21));
+    background-size: cover;
+    width: 100vw;
+    padding: 3em;
+    font-size: 1.5em;
+}
+
 #overview {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    padding: 2em;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
-h1, h2, h3 {
+.subheading-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+h1, h2, h3,h4,h5 {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -71,11 +112,27 @@ h1, h2, h3 {
 
 h1 {
     padding: 0.5em;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+h4 {
+    font-size: 1.3em;
+    padding: 0.8em;
 }
 p {
     font-size: 1.3em;
