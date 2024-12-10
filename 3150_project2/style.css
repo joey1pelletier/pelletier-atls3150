@@ -4,6 +4,31 @@
     margin: 0;
 }
 
+.skip-link {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: -5em;
+
+}
+
+.skip-link:focus {
+    transform: translateY(100%);
+    top: 5em;
+  }
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -159,16 +184,16 @@ header h1 a:hover {
     color: rgb(92, 90, 90);
 }
 
-h2 {
+h3 {
     font-size: 1.5em;
     padding: 1em;
 }
 
-h3 {
+h4 {
     font-size: 1.8em;
     padding: 1em;
 }
-h4 {
+h5 {
     font-size: 1.5em;
     padding-top: 1em;
     padding-bottom: 0.1em;
