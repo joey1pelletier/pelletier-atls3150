@@ -219,6 +219,11 @@ body {
     font-size: 1.5em;
 }
 
+#link-text a {
+    color: white;
+    text-decoration: none;
+}
+
 .project-img {
     max-width: 100%;
     object-fit: cover;
@@ -238,7 +243,8 @@ body {
 .joey-footer {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    padding: 2em;
+    padding: 1em;
+    padding-top: 5em;
     display: flex;
     justify-content: center;
     align-items: center;
