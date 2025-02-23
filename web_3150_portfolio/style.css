@@ -158,7 +158,15 @@ body {
     margin-right: 1.5em;
 }
 
+<<<<<<< Updated upstream
 .header-left {
+=======
+#skills-section {
+    display: flex;
+}
+
+#skills-header {
+>>>>>>> Stashed changes
     align-self: flex-start;
     font-family: 'Bodoni Moda', serif;
     font-size: 3em;
