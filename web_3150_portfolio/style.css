@@ -226,6 +226,7 @@ body {
 
 .title-and-logos {
     display: flex;
+    padding-top: 0.8em;
 }
 
 .project-title {
@@ -273,6 +274,7 @@ body {
 .project-img {
     max-width: 100%;
     object-fit: cover;
+    border: 0.05px solid white;
 }
 
 .about-me-text {
