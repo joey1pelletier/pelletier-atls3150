@@ -79,6 +79,29 @@ body {
    border-bottom: 1px solid white;
 }
 
+.text-side {
+    padding-left: 4em;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.bio-name {
+    font-family: 'Bodoni Moda', 'serif';
+    border-bottom: 1px solid white;
+    width: fit-content;
+    font-size: 2em;
+    padding-top: 0.5em;
+}
+
+.bio-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
+    padding-top: 1em;
+    line-height: 1.5em;
+
+}
+
 .job-title {
     font-size: 2.25em;
     margin-top: 0.5em;
@@ -375,6 +398,11 @@ textarea {
     align-items: center;
 }
 
+.img-side img{
+    padding-left: 4.5em;
+    padding-top: 3em;
+    width: 40vw;
+}
 
 
 @keyframes arrow-load {
@@ -518,8 +546,25 @@ textarea {
 
     .all-projects-container {
         flex-direction: column;
+        padding: 0;
     }
 
+    .img-side img{
+        padding-left: 0;
+        padding-top: 0;
+        width: 40vw;
+    }
+    .text-side {
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+    }
+
+    .bio-name {
+        padding-top: 1em;
+    }
 
 }
 
@@ -570,6 +615,10 @@ textarea {
     
     .top-nav #logo {
         margin: 0em 0.5em 0em 0.5em;
+    }
+
+    .skills-sub h3 {
+        font-size: 1.25em;
     }
 
     .logo-container {
